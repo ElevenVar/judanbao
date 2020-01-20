@@ -1,0 +1,1865 @@
+/* 引用公告变量less */
+/* skin */
+/*header背景色*/
+/*menu 菜单背景色*/
+/*menu 被选择的颜色*/
+/*menu hover的颜色*/
+/*menu border的颜色*/
+/* skinGreen */
+/*header背景色*/
+/*menu 菜单背景色*/
+/*menu 被选择的颜色*/
+/*menu hover的颜色*/
+/*menu border的颜色*/
+/* skinRed */
+/*header背景色*/
+/*menu 菜单背景色*/
+/*menu 被选择的颜色*/
+/*menu hover的颜色*/
+/*menu border的颜色*/
+/* skinBlack */
+/*header背景色*/
+/*menu 菜单背景色*/
+/*menu 被选择的颜色*/
+/*menu hover的颜色*/
+/*menu border的颜色*/
+/* skinOhther */
+/* skinLightgreen */
+/*header背景色*/
+/*menu 菜单背景色*/
+/*menu 被选择的颜色*/
+/*menu hover的颜色*/
+/*menu border的颜色*/
+/*头部背景色*/
+/* skinLightpink */
+/*header背景色*/
+/*menu 菜单背景色*/
+/*menu 被选择的颜色*/
+/*menu hover的颜色*/
+/*menu border的颜色*/
+/*头部背景色*/
+/* skinPinkgreen */
+/*header背景色*/
+/*menu 菜单背景色*/
+/*menu 被选择的颜色*/
+/*menu hover的颜色*/
+/*menu border的颜色*/
+/*头部背景色*/
+/*table*/
+/*table border 颜色*/
+@import 'iconfont.css';
+.ivu-spin {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.demo-spin-icon-load {
+  animation: ani-demo-spin 1s linear infinite;
+}
+.ivu-spin-fix {
+  z-index: 1001;
+}
+/*公共头部样式 */
+.header-item {
+  width: 100%;
+  font-size: 18px;
+  padding: 5px 0 15px;
+  border-bottom: solid 1px #f8f8f8;
+}
+/*公共form表单样式 */
+.from-item {
+  padding: 24px 24px 0;
+  background-color: #fff;
+}
+.from-item .ivu-form .ivu-form-item-label {
+  border: 1px solid #dddee1;
+  border-right: none;
+  background: #fbfbfb;
+  padding: 11px 0;
+}
+.from-item .ivu-form .upLoad .ivu-form-item-label {
+  height: 60px;
+  line-height: 40px;
+}
+.from-item .ivu-form-item-label {
+  text-align: center!important;
+}
+.from-item .ivu-select-selection {
+  border-radius: 0;
+  height: 36px !!important;
+}
+.from-item .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.from-item .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+  font-size: 14px;
+}
+.from-item .ivu-input-group-prepend .ivu-select-single .ivu-select-selection .ivu-select-placeholder {
+  color: #656565;
+}
+.from-item .ivu-input-group-prepend .ivu-select-selection {
+  background: #FBFBFB;
+  margin: 0;
+}
+.from-item .ivu-input,
+.from-item .ivu-input-group-append,
+.from-item .ivu-input-group-prepend {
+  border-radius: 0;
+}
+.from-item .ivu-input-group .ivu-input {
+  width: 250px;
+}
+.from-item button {
+  margin-right: 15px;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.from-item .ivu-form .ivu-form-item-label {
+  font-size: 12px;
+}
+.from-item .mid {
+  display: inline-block;
+  width: 13px;
+  text-align: center;
+}
+.from-item .ivu-checkbox-group {
+  height: 36px;
+  padding: 0 7px;
+  border: 1px solid #dddee1;
+}
+.from-item .ivu-radio-group {
+  width: 100%;
+  height: 36px;
+  padding-left: 10px;
+  border: 1px solid #dcdee2;
+}
+.from-items {
+  padding: 10px;
+}
+.from-items .ivu-form {
+  display: inline-block;
+}
+.from-items .ivu-form .block-tips.ivu-form-item .ivu-form-item-content .prepend.ivu-select {
+  width: 110px;
+}
+.from-items .ivu-form .block-tips.ivu-form-item .ivu-form-item-content .prepend.ivu-select .ivu-select-selection {
+  width: 110px;
+  border-radius: 0;
+}
+.from-items .ivu-form .block-tips.ivu-form-item .ivu-form-item-content .twoSelect.ivu-select {
+  width: 250px;
+}
+.from-items .ivu-form .block-tips.ivu-form-item .ivu-form-item-content .twoSelect.ivu-select .ivu-select-selection {
+  width: 250px;
+  margin-left: -4px;
+  border-radius: 0;
+}
+.from-items .ivu-form .block-tips.ivu-form-item .ivu-form-item-content .ivu-input-wrapper {
+  width: 250px;
+  margin-left: -4px;
+}
+.from-items .ivu-form .block-tips.ivu-form-item .ivu-form-item-content .ivu-input-wrapper .ivu-input.ivu-input-large {
+  border-radius: 0;
+}
+/*公共table表单样式 */
+.table-item {
+  margin: 20px 0 0;
+}
+.table-item .ivu-table th {
+  font-size: 12px;
+}
+.table-item .ivu-table td,
+.table-item .ivu-table th {
+  text-align: center;
+  border-color: #dddddd;
+  height: 35px;
+}
+/*公共page分页样式 */
+.page-item {
+  padding: 20px 0;
+  text-align: right;
+  padding-right: 20px;
+}
+.page-item .ivu-page {
+  display: inline-block;
+  vertical-align: middle;
+}
+.page-item .ivu-select-item-selected,
+.page-item .ivu-select-item-selected:hover {
+  background-color: #3F6FB1;
+  color: #fff;
+}
+.page-item .ivu-page-options .ivu-select-selection,
+.page-item .ivu-page-options .ivu-page-options-elevator input {
+  border-radius: 0;
+}
+.page-item .skip-page-btn {
+  margin-left: 8px;
+  border-style: none;
+  width: 72px;
+  height: 32px;
+  background: #abc3d6;
+  color: #edf0f1;
+  border-radius: 4px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.page-item .skip-page-btn:hover {
+  background: #ABC3D6;
+}
+.page-item .ivu-icon-ios-refresh {
+  cursor: pointer;
+}
+.table-warper {
+  padding: 15px;
+  padding-bottom: 100px;
+  background: #fff;
+  border: 1px solid #ececec;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.table-warper .table-item {
+  margin-top: 10px;
+}
+.table-warper .ivu-steps .ivu-steps-title {
+  position: relative;
+  top: -25px;
+  left: -41px;
+}
+.table-warper .ivu-steps-horizontal .ivu-steps-content {
+  padding-left: 0px !important;
+  padding-top: 10px;
+}
+.table-warper .table-Steps {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.table-warper .table-Steps .steps-step {
+  margin-top: 40px;
+  width: 60%;
+}
+.table-warper .table-Steps .ivu-steps-item.ivu-steps-status-finish .ivu-steps-tail > i:after,
+.table-warper .table-Steps .ivu-steps .ivu-steps-tail > i {
+  height: 4px;
+  position: absolute;
+  top: -2px;
+}
+.ivu-notice-custom-content {
+  top: 20px;
+}
+.ivu-notice-with-desc.ivu-notice-with-icon .ivu-notice-title,
+.ivu-notice-with-desc.ivu-notice-with-icon .ivu-notice-desc {
+  position: relative;
+  top: -10px;
+  margin-left: 60px;
+}
+.ivu-notice-notice {
+  height: 120px;
+  padding-left: 26px;
+}
+.ivu-notice-title {
+  font-size: 16px;
+  color: #373C43;
+}
+.ivu-notice-desc {
+  font-size: 14px;
+  color: #8290A5;
+}
+.ivu-icon-ios-close:before {
+  font-size: 30px;
+}
+.ivu-notice-with-desc .ivu-notice-icon {
+  width: 38px;
+  height: 38px;
+}
+.ivu-notice-with-desc .ivu-notice-icon .ivu-icon-ios-checkmark-circle-outline:before {
+  content: '' !important;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: url('../img/ico/icon_reminder_cg.png') 100% 100%;
+}
+.ivu-notice-with-desc .ivu-notice-icon .ivu-icon-ios-close-circle-outline:before {
+  content: '' !important;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: url('../img/ico/icon_reminder_cw.png') 100% 100%;
+}
+/* tabs 公共组件类*/
+.tabs-item {
+  margin-top: 20px;
+  padding: 15px;
+  background: white;
+  border: 1px solid #ececec;
+}
+.tabs-item .table-item {
+  margin-top: 0;
+}
+.tabs-item .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab {
+  border-radius: 0;
+}
+.tabs-item .ivu-page-prev {
+  border-radius: 0;
+}
+.tabs-item .ivu-tabs {
+  overflow: hidden;
+}
+/* Modal 样式 全局修改 */
+.ivu-modal {
+  min-width: 540px;
+}
+.ivu-modal .ivu-modal-content {
+  border-radius: 0;
+  width: 530px!important;
+}
+.ivu-modal .ivu-modal-header {
+  padding: 10px 16px;
+}
+.ivu-modal .ivu-modal-close {
+  overflow: visible;
+}
+.ivu-modal .ivu-modal-close .ivu-icon-ios-close-empty {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #3F6FB1;
+  color: #fff;
+  text-align: center;
+  top: -20px;
+  left: 30px;
+}
+.ivu-modal .ivu-modal-body {
+  max-height: 500px;
+  overflow-y: auto;
+}
+.ivu-modal .from-item {
+  padding: 0;
+  border-top: none;
+}
+.ivu-modal .ivu-modal-footer {
+  text-align: center;
+}
+.ivu-modal .ivu-modal-footer .ivu-btn {
+  width: 90px;
+  height: 35px;
+  color: #fff;
+}
+.ivu-modal .ivu-modal-footer .ivu-btn.ivu-btn-text {
+  background-color: #f44c50;
+  border: none;
+}
+.ivu-modal .ivu-modal-footer .ivu-btn.ivu-btn-primary {
+  background-color: #3F6FB1;
+  border: none;
+}
+.vl-notify-content {
+  height: 94% !important;
+  overflow-y: auto;
+}
+.vl-notify.vl-notify-main {
+  z-index: 555555555 !important;
+}
+.detail .tabs-item .from-item {
+  border-top: none;
+  border: 1px solid #dddee1;
+  padding: 15px 15px 0;
+}
+.detail .tabs-item {
+  margin-top: 0;
+}
+.detail .ivu-form-item-content {
+  margin-left: 0;
+  text-align: center;
+}
+.detail .wrap-title {
+  padding-bottom: 10px;
+}
+.detail .wrap-title .tit {
+  font-size: 16px;
+}
+.detail .wrap-title .line {
+  height: 18px;
+  width: 4px;
+  display: inline-block;
+  margin-right: 5px;
+  background: #5fd0ea;
+}
+.detail .detail-row .ivu-tabs-bar {
+  border-bottom: none;
+}
+.detail .detail-row .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+  border-bottom: 1px solid #dcdee2 !important;
+  border-top: none !important;
+}
+.detail .detail-row .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab {
+  border-bottom: 1px solid #dcdee2 !important;
+  border-top: none;
+}
+.detail .btnGroup {
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.detail .btnGroup .ivu-btn {
+  margin-right: 10px;
+}
+.detail .btnGroup .ivu-select-item {
+  text-align: center;
+}
+.detail .ivu-tabs .ivu-tabs-tabpane {
+  min-height: 100px !important;
+  max-height: 400px !important;
+  overflow-y: auto !important;
+}
+.detail .ivu-collapse-content {
+  padding-top: 16px;
+}
+.detail-table .detail-table-row {
+  display: flex;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 14px;
+}
+.detail-table .detail-table-row:last-child {
+  border-bottom: none;
+}
+.detail-table .detail-table-wrap {
+  border: 1px solid #e8e8e8;
+}
+.detail-table .com {
+  word-break: break-all;
+  box-sizing: border-box;
+  min-height: 34px;
+  align-items: stretch;
+  padding: 5px 10px;
+  border-right: 1px solid #e8e8e8;
+}
+.detail-table .com:last-child {
+  border-right: none;
+}
+.detail-table .com:nth-child(odd) {
+  background: #f6f6f6;
+}
+.imgData .ivu-checkbox-wrapper {
+  margin-right: 0;
+}
+.imgData .allchoice .ivu-checkbox-wrapper {
+  margin-right: 20px;
+}
+.noticeRecord .tabs-item,
+.recordCases .tabs-item {
+  border: none;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+  background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: lightgray;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+.header-Collapse {
+  background: #fff;
+}
+.header-Collapse .from-item {
+  padding-left: 0;
+}
+.header-Collapse .head-Icon {
+  font-size: 20px;
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+}
+.header-Collapse .swith {
+  position: absolute;
+  right: 20px;
+  font-size: 14px !important;
+}
+.header-Collapse .rotate {
+  transform: rotate(180deg);
+}
+.header-Collapse .head-commom {
+  font-size: 16px;
+}
+.header-Collapse .ivu-icon-arrow-right-b:before {
+  content: "\F472";
+}
+.header-Collapse .ivu-collapse > .ivu-collapse-item > .ivu-collapse-header {
+  padding-left: 17px;
+}
+.header-Collapse .ivu-collapse-content > .ivu-collapse-content-box {
+  padding-top: 0;
+}
+.header-Collapse .twoSelect .ivu-form-item-content {
+  margin-left: 0 !important;
+}
+.header-Collapse .selectGroup .ivu-form-item-content {
+  margin-left: 0 !important;
+}
+.header-Collapse .selectGroup .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+  text-align: center !important;
+}
+.header-Collapse .selectGroup .firstSelect {
+  width: 110px;
+  margin-left: 0;
+}
+.header-Collapse .selectGroup .firstSelect .ivu-select-selection {
+  background: #fbfbfb !important;
+  width: 110px !important;
+}
+.header-Collapse .selectGroup .firstSelect .ivu-select-selection .ivu-select-placeholder {
+  text-align: center!important;
+  color: #495060;
+}
+.header-Collapse .selectGroup .twoSelect {
+  width: 250px;
+  margin-left: -4px;
+}
+.header-Collapse .ivu-select-large.ivu-select-single .ivu-select-selection {
+  width: 250px;
+  height: 36px !important;
+}
+.header-Collapse .ivu-input {
+  width: 250px !important;
+}
+.header-Collapse .only {
+  width: 125px !important;
+}
+.header-Collapse .only .ivu-input {
+  width: 124px !important;
+  float: left;
+}
+.ivu-collapse > .ivu-collapse-item > .ivu-collapse-header > i {
+  font-size: 17px;
+}
+/* 全局权限树样式*/
+.tree-item {
+  border: solid 1px #e6e6e6;
+}
+.tree-item .header-tree {
+  line-height: 36px;
+  font-size: 12px;
+  background-color: #fbfbfb;
+  border-bottom: solid 1px #e6e6e6;
+  padding: 0 20px;
+}
+.tree-item .ivu-tree {
+  min-height: 300px;
+  padding: 15px;
+}
+/* 自定义按钮样式 */
+button.btn,
+.btn {
+  display: inline-block;
+  width: 117px;
+  height: 41px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: #1ac5a3;
+  border: none;
+}
+button.btn:hover,
+.btn:hover {
+  background-color: #44c8ae;
+}
+button.btn[type='error'],
+.btn[type='error'] {
+  background-color: #f44c50;
+}
+button.btn[type='error']:hover,
+.btn[type='error']:hover {
+  background-color: #f56064;
+}
+.ivu-form-item {
+  margin-bottom: 15px;
+}
+.ivu-form-item .form-item-msg {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #dcdee2;
+  background-color: #fbfbfb;
+  text-indent: 10px;
+}
+.ivu-form-item-error-tip {
+  padding-top: 2px;
+}
+/* skin default class 公共样式 皮肤*/
+.ivu-layout-header {
+  border-bottom: none;
+}
+.ivu-layout-header .left-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ivu-layout-header .left-logo img {
+  height: 33px;
+}
+.ivu-layout-header .item-ico.onLine .ivu-icon {
+  color: #5ff344;
+}
+.ivu-btn {
+  border-radius: 4px;
+  outline: none;
+  min-width: 90px;
+  height: 35px;
+}
+.ivu-btn[disabled] {
+  color: #c5c8ce!important;
+}
+.ivu-btn.ivu-btn-small {
+  min-width: 60px;
+  height: 23px;
+  border-radius: 18px;
+}
+/* skin default class 默认皮肤 */
+#skin {
+  /* switch 按钮样式*/
+  /* 修改全局按钮样式 */
+}
+#skin .isactive a {
+  background-color: #3F6FB1;
+}
+#skin .ivu-select-item-selected,
+#skin .ivu-select-item-selected:hover {
+  background-color: #3F6FB1;
+  color: #fff;
+}
+#skin .ivu-switch-checked {
+  background-color: #3F6FB1;
+  border-color: #3F6FB1;
+}
+#skin .ivu-checkbox-checked .ivu-checkbox-inner {
+  background-color: #3F6FB1;
+  border-color: #3F6FB1;
+}
+#skin .ivu-checkbox-indeterminate .ivu-checkbox-inner {
+  background-color: #3F6FB1;
+  border-color: #3F6FB1;
+}
+#skin .ivu-tree-title-selected,
+#skin .ivu-tree-title-selected:hover {
+  background-color: #3F6FB1;
+  color: #fff;
+}
+#skin .ivu-layout-header {
+  background-color: #3F6FB1;
+}
+#skin .ivu-layout-header .right-user-item .item-ico {
+  background-color: #3F6FB1;
+}
+#skin .ivu-menu-light {
+  background-color: #3F6FB1;
+  color: #fff;
+}
+#skin .ivu-menu-light .ivu-menu {
+  color: #fff;
+}
+#skin .ivu-menu-light .ivu-menu .ivu-menu-item:hover {
+  background-color: #355f97;
+  color: #5fd0ea;
+}
+#skin .ivu-menu-light .ivu-menu-item-active {
+  background-color: #355f97;
+}
+#skin .ivu-menu-light .ivu-menu-item-active .ivu-menu-submenu-title {
+  background-color: #355f97;
+  border-bottom: solid 1px #3F6FB1;
+}
+#skin .ivu-menu-light .ivu-menu-item-active .ivu-menu {
+  border-bottom: solid 1px #3F6FB1;
+}
+#skin .ivu-menu-light .ivu-menu-item-active .ivu-menu-item:hover {
+  color: #5fd0ea;
+}
+#skin .ivu-menu-light .ivu-menu-submenu-title:hover {
+  background-color: #355f97;
+  color: #5fd0ea;
+}
+#skin .ivu-menu-light.ivu-menu-vertical:after {
+  background: #355f97;
+}
+#skin .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  color: #5fd0ea;
+}
+#skin .ivu-btn[disabled] {
+  background-color: #f7f7f7!important;
+  border-color: #dcdee2!important;
+}
+#skin .ivu-btn.ivu-btn-small {
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #DEDEDE;
+}
+#skin .ivu-btn.ivu-btn-small.ivu-btn-info {
+  color: #3F6FB1;
+  background-color: #fff;
+  border: solid 1px #3F6FB1;
+}
+#skin .ivu-btn.ivu-btn-small.ivu-btn-error {
+  color: #D61414;
+  background-color: #fff;
+  border: solid 1px #D61414;
+}
+#skin .ivu-btn.ivu-btn-small.ivu-btn-primary {
+  background-color: #3F6FB1;
+  border: solid 1px #3F6FB1;
+}
+#skin .ivu-btn.ivu-btn-small.ivu-btn-warning {
+  background-color: #fff;
+  border: solid 1px #3F6FB1;
+}
+#skin .ivu-btn.ivu-btn-primary {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #3F6FB1;
+  border: solid 1px #3F6FB1;
+}
+#skin .cotectPhone {
+  font-size: 25px;
+  color: #3F6FB1;
+}
+#skin .ivu-input-search {
+  background-color: #3F6FB1 !important;
+  border: solid 1px #3F6FB1;
+}
+#skin .page-item .ivu-page li {
+  border-radius: 0;
+}
+#skin .page-item .ivu-page li.ivu-page-item-active {
+  background-color: #3F6FB1;
+  border-color: #3F6FB1;
+}
+#skin .page-item .ivu-page li.ivu-page-item-active a {
+  color: #fff;
+}
+#skin .page-item .ivu-page-item:hover {
+  border-color: #3F6FB1;
+}
+#skin .page-item .ivu-select-item-selected,
+#skin .page-item .ivu-select-item-selected:hover {
+  background-color: #3F6FB1;
+  color: #fff;
+}
+#skin .ivu-dropdown-item {
+  text-align: left;
+  color: #3F6FB1;
+}
+#skin .breadlink_wrap .breadlink {
+  background: #3F6FB1;
+}
+#skin .tabs-item .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+  color: #3F6FB1;
+}
+#skin .tabs-item .ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: #3F6FB1;
+}
+.ivu-radio-checked .ivu-radio-inner {
+  border-color: #3F6FB1;
+}
+.ivu-radio-checked .ivu-radio-inner:after {
+  background-color: #3F6FB1;
+}
+/* skin 结束 */
+/* skinGreen 绿色皮肤*/
+#skinGreen {
+  /* switch 按钮样式*/
+  /* 修改全局按钮样式 */
+}
+#skinGreen .isactive a {
+  background-color: #143E05;
+}
+#skinGreen .ivu-select-item-selected,
+#skinGreen .ivu-select-item-selected:hover {
+  background-color: #143E05;
+  color: #fff;
+}
+#skinGreen .ivu-switch-checked {
+  background-color: #143E05;
+  border-color: #143E05;
+}
+#skinGreen .ivu-checkbox-checked .ivu-checkbox-inner {
+  background-color: #143E05;
+  border-color: #143E05;
+}
+#skinGreen .ivu-checkbox-indeterminate .ivu-checkbox-inner {
+  background-color: #143E05;
+  border-color: #143E05;
+}
+#skinGreen .ivu-tree-title-selected,
+#skinGreen .ivu-tree-title-selected:hover {
+  background-color: #143E05;
+  color: #fff;
+}
+#skinGreen .ivu-layout-header {
+  background-color: #143E05;
+}
+#skinGreen .ivu-layout-header .right-user-item .item-ico {
+  background-color: #143E05;
+}
+#skinGreen .ivu-menu-light {
+  background-color: #143E05;
+  color: #fff;
+}
+#skinGreen .ivu-menu-light .ivu-menu {
+  color: #fff;
+}
+#skinGreen .ivu-menu-light .ivu-menu .ivu-menu-item:hover {
+  background-color: #113404;
+  color: #47f309;
+}
+#skinGreen .ivu-menu-light .ivu-menu-item-active {
+  background-color: #113404;
+}
+#skinGreen .ivu-menu-light .ivu-menu-item-active .ivu-menu-submenu-title {
+  background-color: #113404;
+  border-bottom: solid 1px #143E05;
+}
+#skinGreen .ivu-menu-light .ivu-menu-item-active .ivu-menu {
+  border-bottom: solid 1px #143E05;
+}
+#skinGreen .ivu-menu-light .ivu-menu-item-active .ivu-menu-item:hover {
+  color: #47f309;
+}
+#skinGreen .ivu-menu-light .ivu-menu-submenu-title:hover {
+  background-color: #113404;
+  color: #47f309;
+}
+#skinGreen .ivu-menu-light.ivu-menu-vertical:after {
+  background: #113404;
+}
+#skinGreen .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  color: #47f309;
+}
+#skinGreen .ivu-btn[disabled] {
+  background-color: #f7f7f7!important;
+  border-color: #dcdee2!important;
+}
+#skinGreen .ivu-btn.ivu-btn-small {
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #DEDEDE;
+}
+#skinGreen .ivu-btn.ivu-btn-small.ivu-btn-info {
+  color: #236d09;
+  background-color: #fff;
+  border: solid 1px #236d09;
+}
+#skinGreen .ivu-btn.ivu-btn-small.ivu-btn-error {
+  color: #720B0B;
+  background-color: #fff;
+  border: solid 1px #720B0B;
+}
+#skinGreen .ivu-btn.ivu-btn-small.ivu-btn-primary {
+  background-color: #143E05;
+  border: solid 1px #143E05;
+}
+#skinGreen .ivu-btn.ivu-btn-small.ivu-btn-warning {
+  background-color: #fff;
+  border: solid 1px #236d09;
+}
+#skinGreen .ivu-btn.ivu-btn-primary {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #236d09;
+  border: solid 1px #236d09;
+}
+#skinGreen .cotectPhone {
+  font-size: 25px;
+  color: #236d09;
+}
+#skinGreen .ivu-input-search {
+  background-color: #143E05 !important;
+  border: solid 1px #143E05;
+}
+#skinGreen .page-item .ivu-page li {
+  border-radius: 0;
+}
+#skinGreen .page-item .ivu-page li.ivu-page-item-active {
+  background-color: #143E05;
+  border-color: #143E05;
+}
+#skinGreen .page-item .ivu-page li.ivu-page-item-active a {
+  color: #fff;
+}
+#skinGreen .page-item .ivu-page .ivu-page-item:hover {
+  border-color: #143E05;
+}
+#skinGreen .page-item .ivu-page .ivu-select-item-selected,
+#skinGreen .page-item .ivu-page .ivu-select-item-selected:hover {
+  background-color: #143E05;
+  color: #fff;
+}
+#skinGreen .ivu-dropdown-item {
+  text-align: left;
+  color: #143E05;
+}
+#skinGreen .breadlink_wrap .breadlink {
+  background: #236d09;
+}
+#skinGreen .tabs-item .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+  color: #236d09;
+}
+#skinGreen .tabs-item .ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: #236d09;
+}
+#skinGreen .ivu-steps-item.ivu-steps-status-process .ivu-steps-head-inner {
+  border-color: #113404;
+  background-color: #113404;
+}
+/* skinGreen 结束 */
+/* skinRed 红色皮肤*/
+#skinRed {
+  /* switch 按钮样式*/
+  /* 修改全局按钮样式 */
+}
+#skinRed .isactive a {
+  background-color: #720B0B;
+}
+#skinRed .ivu-select-item-selected,
+#skinRed .ivu-select-item-selected:hover {
+  background-color: #720B0B;
+  color: #fff;
+}
+#skinRed .ivu-switch-checked {
+  background-color: #720B0B;
+  border-color: #720B0B;
+}
+#skinRed .ivu-checkbox-checked .ivu-checkbox-inner {
+  background-color: #720B0B;
+  border-color: #720B0B;
+}
+#skinRed .ivu-checkbox-indeterminate .ivu-checkbox-inner {
+  background-color: #720B0B;
+  border-color: #720B0B;
+}
+#skinRed .ivu-tree-title-selected,
+#skinRed .ivu-tree-title-selected:hover {
+  background-color: #720B0B;
+  color: #fff;
+}
+#skinRed .ivu-layout-header {
+  background-color: #720B0B;
+}
+#skinRed .ivu-layout-header .right-user-item .item-ico {
+  background-color: #720B0B;
+}
+#skinRed .ivu-menu-light {
+  background-color: #720B0B;
+  color: #fff;
+}
+#skinRed .ivu-menu-light .ivu-menu {
+  color: #fff;
+}
+#skinRed .ivu-menu-light .ivu-menu .ivu-menu-item:hover {
+  background-color: #580909;
+  color: #ecdc04;
+}
+#skinRed .ivu-menu-light .ivu-menu-item-active {
+  background-color: #580909;
+}
+#skinRed .ivu-menu-light .ivu-menu-item-active .ivu-menu-submenu-title {
+  background-color: #580909;
+  border-bottom: solid 1px #720B0B;
+}
+#skinRed .ivu-menu-light .ivu-menu-item-active .ivu-menu {
+  border-bottom: solid 1px #720B0B;
+}
+#skinRed .ivu-menu-light .ivu-menu-item-active .ivu-menu-item:hover {
+  color: #ecdc04;
+}
+#skinRed .ivu-menu-light .ivu-menu-submenu-title:hover {
+  background-color: #580909;
+  color: #ecdc04;
+}
+#skinRed .ivu-menu-light.ivu-menu-vertical:after {
+  background: #580909;
+}
+#skinRed .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  color: #ecdc04;
+}
+#skinRed .ivu-btn[disabled] {
+  background-color: #f7f7f7!important;
+  border-color: #dcdee2!important;
+}
+#skinRed .ivu-btn.ivu-btn-small {
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #DEDEDE;
+}
+#skinRed .ivu-btn.ivu-btn-small.ivu-btn-info {
+  color: #a10f0f;
+  background-color: #fff;
+  border: solid 1px #a10f0f;
+}
+#skinRed .ivu-btn.ivu-btn-small.ivu-btn-error {
+  color: #580909;
+  background-color: #fff;
+  border: solid 1px #580909;
+}
+#skinRed .ivu-btn.ivu-btn-small.ivu-btn-primary {
+  background-color: #720B0B;
+  border: solid 1px #720B0B;
+}
+#skinRed .ivu-btn.ivu-btn-small.ivu-btn-warning {
+  background-color: #fff;
+  border: solid 1px #a10f0f;
+}
+#skinRed .ivu-btn.ivu-btn-primary {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #a10f0f;
+  border: solid 1px #a10f0f;
+}
+#skinRed .cotectPhone {
+  font-size: 25px;
+  color: #a10f0f;
+}
+#skinRed .ivu-input-search {
+  background-color: #720B0B !important;
+  border: solid 1px #720B0B;
+}
+#skinRed .page-item .ivu-page li {
+  border-radius: 0;
+}
+#skinRed .page-item .ivu-page li.ivu-page-item-active {
+  background-color: #720B0B;
+  border-color: #720B0B;
+}
+#skinRed .page-item .ivu-page li.ivu-page-item-active a {
+  color: #fff;
+}
+#skinRed .page-item .ivu-page .ivu-page-item:hover {
+  border-color: #720B0B;
+}
+#skinRed .page-item .ivu-page .ivu-select-item-selected,
+#skinRed .page-item .ivu-page .ivu-select-item-selected:hover {
+  background-color: #720B0B;
+  color: #fff;
+}
+#skinRed .ivu-dropdown-item {
+  text-align: left;
+  color: #720B0B;
+}
+#skinRed .breadlink_wrap .breadlink {
+  background: #a10f0f;
+}
+#skinRed .tabs-item .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+  color: #a10f0f;
+}
+#skinRed .tabs-item .ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: #a10f0f;
+}
+#skinRed .ivu-steps-item.ivu-steps-status-process .ivu-steps-head-inner {
+  border-color: #720B0B;
+  background-color: #720B0B;
+}
+/* skinRed 结束 */
+/* skinBlack 黑色皮肤*/
+#skinBlack {
+  /* switch 按钮样式*/
+  /* 修改全局按钮样式 */
+}
+#skinBlack .isactive a {
+  background-color: #1E232F;
+}
+#skinBlack .ivu-select-item-selected,
+#skinBlack .ivu-select-item-selected:hover {
+  background-color: #1E232F;
+  color: #fff;
+}
+#skinBlack .ivu-switch-checked {
+  background-color: #1E232F;
+  border-color: #1E232F;
+}
+#skinBlack .ivu-checkbox-checked .ivu-checkbox-inner {
+  background-color: #1E232F;
+  border-color: #1E232F;
+}
+#skinBlack .ivu-checkbox-indeterminate .ivu-checkbox-inner {
+  background-color: #1E232F;
+  border-color: #1E232F;
+}
+#skinBlack .ivu-tree-title-selected,
+#skinBlack .ivu-tree-title-selected:hover {
+  background-color: #1E232F;
+  color: #fff;
+}
+#skinBlack .ivu-layout-header {
+  background-color: #1E232F;
+}
+#skinBlack .ivu-layout-header .right-user-item .item-ico {
+  background-color: #1E232F;
+}
+#skinBlack .ivu-menu-light {
+  background-color: #1E232F;
+  color: #fff;
+}
+#skinBlack .ivu-menu-light .ivu-menu {
+  color: #fff;
+}
+#skinBlack .ivu-menu-light .ivu-menu .ivu-menu-item:hover {
+  background-color: #141822;
+  color: #33cde5;
+}
+#skinBlack .ivu-menu-light .ivu-menu-item-active {
+  background-color: #141822;
+}
+#skinBlack .ivu-menu-light .ivu-menu-item-active .ivu-menu-submenu-title {
+  background-color: #141822;
+  border-bottom: solid 1px #1E232F;
+}
+#skinBlack .ivu-menu-light .ivu-menu-item-active .ivu-menu {
+  border-bottom: solid 1px #1E232F;
+}
+#skinBlack .ivu-menu-light .ivu-menu-item-active .ivu-menu-item:hover {
+  color: #33cde5;
+}
+#skinBlack .ivu-menu-light .ivu-menu-submenu-title:hover {
+  background-color: #141822;
+  color: #33cde5;
+}
+#skinBlack .ivu-menu-light.ivu-menu-vertical:after {
+  background: #141822;
+}
+#skinBlack .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  color: #33cde5;
+}
+#skinBlack .ivu-btn[disabled] {
+  background-color: #f7f7f7!important;
+  border-color: #dcdee2!important;
+}
+#skinBlack .ivu-btn.ivu-btn-small {
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #DEDEDE;
+}
+#skinBlack .ivu-btn.ivu-btn-small.ivu-btn-info {
+  color: #323b4e;
+  background-color: #fff;
+  border: solid 1px #323b4e;
+}
+#skinBlack .ivu-btn.ivu-btn-small.ivu-btn-error {
+  color: #580909;
+  background-color: #fff;
+  border: solid 1px #580909;
+}
+#skinBlack .ivu-btn.ivu-btn-small.ivu-btn-primary {
+  background-color: #1E232F;
+  border: solid 1px #1E232F;
+}
+#skinBlack .ivu-btn.ivu-btn-small.ivu-btn-warning {
+  background-color: #fff;
+  border: solid 1px #323b4e;
+}
+#skinBlack .ivu-btn.ivu-btn-primary {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #323b4e;
+  border: solid 1px #323b4e;
+}
+#skinBlack .cotectPhone {
+  font-size: 25px;
+  color: #323b4e;
+}
+#skinBlack .ivu-input-search {
+  background-color: #1E232F !important;
+  border: solid 1px #1E232F;
+}
+#skinBlack .page-item .ivu-page li {
+  border-radius: 0;
+}
+#skinBlack .page-item .ivu-page li.ivu-page-item-active {
+  background-color: #1E232F;
+  border-color: #1E232F;
+}
+#skinBlack .page-item .ivu-page li.ivu-page-item-active a {
+  color: #fff;
+}
+#skinBlack .page-item .ivu-page .ivu-page-item:hover {
+  border-color: #1E232F;
+}
+#skinBlack .page-item .ivu-page .ivu-select-item-selected,
+#skinBlack .page-item .ivu-page .ivu-select-item-selected:hover {
+  background-color: #1E232F;
+  color: #fff;
+}
+#skinBlack .ivu-dropdown-item {
+  text-align: left;
+  color: #1E232F;
+}
+#skinBlack .breadlink_wrap .breadlink {
+  background: #323b4e;
+}
+#skinBlack .tabs-item .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+  color: #323b4e;
+}
+#skinBlack .tabs-item .ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: #323b4e;
+}
+/* skinBlack 结束 */
+/* skinOnther 灰色皮肤*/
+#skinOther .breadlink_wrap .breadlink {
+  color: #fff;
+  background-color: #2d8cf0 !important;
+  border-color: #2d8cf0 !important;
+}
+#skinOther .cotectPhone {
+  font-size: 25px;
+  color: #236d09;
+}
+/* skinOnther 结束*/
+/* skinLightgreen 浅绿皮肤*/
+#skinLightgreen {
+  /* switch 按钮样式*/
+  /* 修改全局按钮样式 */
+}
+#skinLightgreen .isactive a {
+  background-color: #EBF7F0;
+  color: #666666;
+}
+#skinLightgreen .ivu-select-item-selected,
+#skinLightgreen .ivu-select-item-selected:hover {
+  background-color: #c3e8d1;
+  color: #10a54a;
+}
+#skinLightgreen .ivu-switch-checked {
+  background-color: #89bf04;
+  border-color: #89bf04;
+}
+#skinLightgreen .ivu-checkbox-checked .ivu-checkbox-inner {
+  background-color: #1fbf4a;
+  border-color: #1fbf4a;
+}
+#skinLightgreen .ivu-checkbox-indeterminate .ivu-checkbox-inner {
+  background-color: #1fbf4a;
+  border-color: #1fbf4a;
+}
+#skinLightgreen .ivu-tree-title-selected,
+#skinLightgreen .ivu-tree-title-selected:hover {
+  background-color: #1fbf4a;
+  color: #FFFFFF;
+}
+#skinLightgreen .ivu-layout-header {
+  background-color: #89bf04;
+}
+#skinLightgreen .ivu-layout-header .right-user-item {
+  color: #FFFFFF;
+}
+#skinLightgreen .ivu-layout-header .right-user-item .item-ico {
+  background-color: #89bf04;
+}
+#skinLightgreen .ivu-menu-light {
+  background-color: #EBF7F0;
+  color: #666666;
+}
+#skinLightgreen .ivu-menu-light .ivu-menu {
+  color: #666666;
+}
+#skinLightgreen .ivu-menu-light .ivu-menu .ivu-menu-item:hover {
+  background-color: #c3e8d1;
+  color: #10a54a;
+}
+#skinLightgreen .ivu-menu-light .ivu-menu-item-active {
+  background-color: #c3e8d1;
+}
+#skinLightgreen .ivu-menu-light .ivu-menu-item-active .ivu-menu-submenu-title {
+  background-color: #c3e8d1;
+  border-bottom: solid 1px #EBF7F0;
+}
+#skinLightgreen .ivu-menu-light .ivu-menu-item-active .ivu-menu {
+  border-bottom: solid 1px #EBF7F0;
+}
+#skinLightgreen .ivu-menu-light .ivu-menu-item-active .ivu-menu-item:hover {
+  color: #10a54a;
+}
+#skinLightgreen .ivu-menu-light .ivu-menu-submenu-title:hover {
+  background-color: #c3e8d1;
+  color: #10a54a;
+}
+#skinLightgreen .ivu-menu-light.ivu-menu-vertical:after {
+  background: #c3e8d1;
+}
+#skinLightgreen .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  color: #10a54a;
+}
+#skinLightgreen .ivu-btn[disabled] {
+  background-color: #f7f7f7!important;
+  border-color: #dcdee2!important;
+}
+#skinLightgreen .ivu-btn.ivu-btn-small {
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #DEDEDE;
+}
+#skinLightgreen .ivu-btn.ivu-btn-small.ivu-btn-info {
+  color: #10a54a;
+  background-color: #fff;
+  border: solid 1px #10a54a;
+}
+#skinLightgreen .ivu-btn.ivu-btn-small.ivu-btn-error {
+  color: #D61414;
+  background-color: #fff;
+  border: solid 1px #D61414;
+}
+#skinLightgreen .ivu-btn.ivu-btn-small.ivu-btn-primary {
+  background-color: #EBF7F0;
+  border: solid 1px #EBF7F0;
+  color: #666666;
+}
+#skinLightgreen .ivu-btn.ivu-btn-small.ivu-btn-warning {
+  background-color: #fff;
+  border: solid 1px #10a54a;
+}
+#skinLightgreen .ivu-btn.ivu-btn-primary {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #10a54a;
+  border: solid 1px #10a54a;
+}
+#skinLightgreen .cotectPhone {
+  font-size: 25px;
+  color: #10a54a;
+}
+#skinLightgreen .ivu-input-search {
+  background-color: #10a54a !important;
+  border: solid 1px #10a54a;
+  border: none;
+}
+#skinLightgreen .page-item .ivu-page li {
+  border-radius: 0;
+}
+#skinLightgreen .page-item .ivu-page li.ivu-page-item-active {
+  background-color: #10a54a;
+  border-color: #10a54a;
+}
+#skinLightgreen .page-item .ivu-page li.ivu-page-item-active a {
+  color: #FFFFFF;
+}
+#skinLightgreen .page-item .ivu-page .ivu-page-item:hover {
+  border-color: #10a54a;
+}
+#skinLightgreen .page-item .ivu-page .ivu-select-item-selected,
+#skinLightgreen .page-item .ivu-page .ivu-select-item-selected:hover {
+  background-color: #c3e8d1;
+  color: #10a54a;
+}
+#skinLightgreen .ivu-dropdown-item {
+  text-align: left;
+  color: #10a54a;
+}
+#skinLightgreen .breadlink_wrap .isactive a .ivu-icon-ios-close-circle-outline:before {
+  color: #666666;
+}
+#skinLightgreen .breadlink_wrap .breadlink {
+  background: #10a54a;
+}
+#skinLightgreen .tabs-item .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+  color: #10a54a;
+}
+#skinLightgreen .tabs-item .ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: #10a54a;
+}
+#skinLightgreen .ivu-steps-item.ivu-steps-status-process .ivu-steps-head-inner {
+  border-color: #89bf04;
+  background-color: #89bf04;
+}
+/* skinLightgreen 结束 */
+/* skinLightpink 浅粉皮肤*/
+#skinLightpink {
+  /* switch 按钮样式*/
+  /* 修改全局按钮样式 */
+}
+#skinLightpink .isactive a {
+  background-color: #fde4e7;
+  color: #666666;
+}
+#skinLightpink .ivu-select-item-selected,
+#skinLightpink .ivu-select-item-selected:hover {
+  background-color: #ffc9db;
+  color: #FFFFFF;
+}
+#skinLightpink .ivu-switch-checked {
+  background-color: #fde4e7;
+  border-color: #fde4e7;
+}
+#skinLightpink .ivu-checkbox-checked .ivu-checkbox-inner {
+  background-color: #d86876;
+  border-color: #d86876;
+}
+#skinLightpink .ivu-switch-inner {
+  color: #d86876;
+}
+#skinLightpink .ivu-checkbox-indeterminate .ivu-checkbox-inner {
+  background-color: #d86876;
+  border-color: #d86876;
+}
+#skinLightpink .ivu-tree-title-selected,
+#skinLightpink .ivu-tree-title-selected:hover {
+  background-color: #d86876;
+  color: #FFFFFF;
+}
+#skinLightpink .ivu-layout-header {
+  background-color: #f7b3cc;
+}
+#skinLightpink .ivu-layout-header .right-user-item {
+  color: #FFFFFF;
+}
+#skinLightpink .ivu-layout-header .right-user-item .item-ico {
+  background-color: #f7b3cc;
+}
+#skinLightpink .ivu-menu-light {
+  background-color: #fde4e7;
+  color: #666666;
+}
+#skinLightpink .ivu-menu-light .ivu-menu {
+  color: #666666;
+}
+#skinLightpink .ivu-menu-light .ivu-menu .ivu-menu-item:hover {
+  background-color: #ffc9db;
+  color: #d86876;
+}
+#skinLightpink .ivu-menu-light .ivu-menu-item-active {
+  background-color: #ffc9db;
+}
+#skinLightpink .ivu-menu-light .ivu-menu-item-active .ivu-menu-submenu-title {
+  background-color: #ffc9db;
+  border-bottom: solid 1px #f7b3cc;
+}
+#skinLightpink .ivu-menu-light .ivu-menu-item-active .ivu-menu {
+  border-bottom: solid 1px #f7b3cc;
+}
+#skinLightpink .ivu-menu-light .ivu-menu-item-active .ivu-menu-item:hover {
+  color: #d86876;
+}
+#skinLightpink .ivu-menu-light .ivu-menu-submenu-title:hover {
+  background-color: #ffc9db;
+  color: #d86876;
+}
+#skinLightpink .ivu-menu-light.ivu-menu-vertical:after {
+  background: #ffc9db;
+}
+#skinLightpink .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  color: #d86876;
+}
+#skinLightpink .ivu-btn[disabled] {
+  background-color: #f7f7f7!important;
+  border-color: #dcdee2!important;
+}
+#skinLightpink .ivu-btn.ivu-btn-small {
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #DEDEDE;
+}
+#skinLightpink .ivu-btn.ivu-btn-small.ivu-btn-info {
+  color: #d86876;
+  background-color: #fff;
+  border: solid 1px #d86876;
+}
+#skinLightpink .ivu-btn.ivu-btn-small.ivu-btn-error {
+  color: #d86876;
+  background-color: #fff;
+  border: solid 1px #d86876;
+}
+#skinLightpink .ivu-btn.ivu-btn-small.ivu-btn-primary {
+  background-color: #fde4e7;
+  border: solid 1px #fde4e7;
+  color: #666666;
+}
+#skinLightpink .ivu-btn.ivu-btn-small.ivu-btn-warning {
+  background-color: #fff;
+  border: solid 1px #f7b3cc;
+}
+#skinLightpink .ivu-btn.ivu-btn-primary {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #f7b3cc;
+  border: solid 1px #f7b3cc;
+}
+#skinLightpink .cotectPhone {
+  font-size: 25px;
+  color: #f7b3cc;
+}
+#skinLightpink .ivu-input-search {
+  background-color: #f7b3cc !important;
+  border: solid 1px #f7b3cc;
+  border: none;
+}
+#skinLightpink .page-item .ivu-page li {
+  border-radius: 0;
+}
+#skinLightpink .page-item .ivu-page li.ivu-page-item-active {
+  background-color: #f7b3cc;
+  border-color: #f7b3cc;
+}
+#skinLightpink .page-item .ivu-page li.ivu-page-item-active a {
+  color: #FFFFFF;
+}
+#skinLightpink .page-item .ivu-page .ivu-page-item:hover {
+  border-color: #f7b3cc;
+}
+#skinLightpink .page-item .ivu-page .ivu-select-item-selected,
+#skinLightpink .page-item .ivu-page .ivu-select-item-selected:hover {
+  background-color: #ffc9db;
+  color: #FFFFFF;
+}
+#skinLightpink .ivu-dropdown-item {
+  text-align: left;
+  color: #d86876;
+}
+#skinLightpink .breadlink_wrap .isactive a .ivu-icon-ios-close-circle-outline:before {
+  color: #666666;
+}
+#skinLightpink .breadlink_wrap .breadlink {
+  background: #f7b3cc;
+}
+#skinLightpink .tabs-item .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+  color: #f7b3cc;
+}
+#skinLightpink .tabs-item .ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: #f7b3cc;
+}
+#skinLightpink .ivu-steps-item.ivu-steps-status-process .ivu-steps-head-inner {
+  border-color: #f7b3cc;
+  background-color: #f7b3cc;
+}
+/* skinLightpink 结束 */
+/* skinPinkgreen 粉绿皮肤*/
+#skinPinkgreen {
+  /* switch 按钮样式*/
+  /* 修改全局按钮样式 */
+}
+#skinPinkgreen .isactive a {
+  background-color: #97fbef;
+  color: #666666;
+}
+#skinPinkgreen .ivu-select-item-selected,
+#skinPinkgreen .ivu-select-item-selected:hover {
+  background-color: #87e5d7;
+  color: #666666;
+}
+#skinPinkgreen .ivu-switch-checked {
+  background-color: #87e5d7;
+  border-color: #87e5d7;
+}
+#skinPinkgreen .ivu-checkbox-checked .ivu-checkbox-inner {
+  background-color: #1fbf4a;
+  border-color: #1fbf4a;
+}
+#skinPinkgreen .ivu-checkbox-indeterminate .ivu-checkbox-inner {
+  background-color: #1fbf4a;
+  border-color: #1fbf4a;
+}
+#skinPinkgreen .ivu-tree-title-selected,
+#skinPinkgreen .ivu-tree-title-selected:hover {
+  background-color: #97fbef;
+  color: #666666;
+}
+#skinPinkgreen .ivu-layout-header {
+  background-color: #87e5d7;
+}
+#skinPinkgreen .ivu-layout-header .right-user-item {
+  color: #FFFFFF;
+}
+#skinPinkgreen .ivu-layout-header .right-user-item .item-ico {
+  background-color: #87e5d7;
+}
+#skinPinkgreen .ivu-menu-light {
+  background-color: #97fbef;
+  color: #666666;
+}
+#skinPinkgreen .ivu-menu-light .ivu-menu {
+  color: #666666;
+}
+#skinPinkgreen .ivu-menu-light .ivu-menu .ivu-menu-item:hover {
+  background-color: #87e5d7;
+  color: #1fbf4a;
+}
+#skinPinkgreen .ivu-menu-light .ivu-menu-item-active {
+  background-color: #87e5d7;
+}
+#skinPinkgreen .ivu-menu-light .ivu-menu-item-active .ivu-menu-submenu-title {
+  background-color: #87e5d7;
+  border-bottom: solid 1px #97fbef;
+}
+#skinPinkgreen .ivu-menu-light .ivu-menu-item-active .ivu-menu {
+  border-bottom: solid 1px #97fbef;
+}
+#skinPinkgreen .ivu-menu-light .ivu-menu-item-active .ivu-menu-item:hover {
+  color: #1fbf4a;
+}
+#skinPinkgreen .ivu-menu-light .ivu-menu-submenu-title:hover {
+  background-color: #87e5d7;
+  color: #1fbf4a;
+}
+#skinPinkgreen .ivu-menu-light.ivu-menu-vertical:after {
+  background: #87e5d7;
+}
+#skinPinkgreen .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  color: #1fbf4a;
+}
+#skinPinkgreen .ivu-btn[disabled] {
+  background-color: #f7f7f7!important;
+  border-color: #dcdee2!important;
+}
+#skinPinkgreen .ivu-btn.ivu-btn-small {
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #DEDEDE;
+}
+#skinPinkgreen .ivu-btn.ivu-btn-small.ivu-btn-info {
+  color: #1fbf4a;
+  background-color: #fff;
+  border: solid 1px #1fbf4a;
+}
+#skinPinkgreen .ivu-btn.ivu-btn-small.ivu-btn-error {
+  color: #d86876;
+  background-color: #fff;
+  border: solid 1px #d86876;
+}
+#skinPinkgreen .ivu-btn.ivu-btn-small.ivu-btn-primary {
+  background-color: #97fbef;
+  border: solid 1px #97fbef;
+}
+#skinPinkgreen .ivu-btn.ivu-btn-small.ivu-btn-warning {
+  background-color: #fff;
+  border: solid 1px #87e5d7;
+}
+#skinPinkgreen .ivu-btn.ivu-btn-primary {
+  border-radius: 4px;
+  color: #666666;
+  background-color: #87e5d7;
+  border: solid 1px #87e5d7;
+}
+#skinPinkgreen .cotectPhone {
+  font-size: 25px;
+  color: #87e5d7;
+}
+#skinPinkgreen .ivu-input-search {
+  background-color: #87e5d7 !important;
+  border: solid 1px #87e5d7;
+  border: none;
+  color: #666666 !important;
+}
+#skinPinkgreen .page-item .ivu-page li {
+  border-radius: 0;
+}
+#skinPinkgreen .page-item .ivu-page li.ivu-page-item-active {
+  background-color: #87e5d7;
+  border-color: #87e5d7;
+}
+#skinPinkgreen .page-item .ivu-page li.ivu-page-item-active a {
+  color: #666666;
+}
+#skinPinkgreen .page-item .ivu-page .ivu-page-item:hover {
+  border-color: #87e5d7;
+}
+#skinPinkgreen .page-item .ivu-page .ivu-select-item-selected,
+#skinPinkgreen .page-item .ivu-page .ivu-select-item-selected:hover {
+  background-color: #87e5d7;
+  color: #666666;
+}
+#skinPinkgreen .ivu-dropdown-item {
+  text-align: left;
+  color: #1fbf4a;
+}
+#skinPinkgreen .breadlink_wrap .isactive a .ivu-icon-ios-close-circle-outline:before {
+  color: #666666;
+}
+#skinPinkgreen .breadlink_wrap .breadlink {
+  background: #87e5d7;
+}
+#skinPinkgreen .tabs-item .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+  color: #87e5d7;
+}
+#skinPinkgreen .tabs-item .ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: #87e5d7;
+}
+#skinPinkgreen .ivu-steps-item.ivu-steps-status-process .ivu-steps-head-inner {
+  border-color: #1fbf4a;
+  background-color: #1fbf4a;
+}
+/* skinPinkgreen 结束 */
+/* 首页样式*/
+.ivu-layout-header {
+  position: relative;
+  z-index: 10;
+  padding: 0!important;
+  height: 45px!important;
+  display: flex;
+  align-items: center;
+}
+.ivu-layout-header .left-logo {
+  width: 210px;
+  height: 45px;
+}
+.ivu-layout-header .right-user-item {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  padding-right: 10px;
+}
+.ivu-layout-header .right-user-item .item-ico {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  padding: 0 10px;
+  margin-right: 1px;
+  cursor: pointer;
+}
+.ivu-layout-header .right-user-item .item-ico .userName {
+  padding: 0 10px;
+}
+.ivu-layout-header .right-user-item .item-ico .ivu-select-dropdown {
+  top: 40px!important;
+}
+.userItemWarp {
+  display: flex;
+  height: 105px;
+  padding: 20px 0 20px 20px;
+  background-color: #3F6FB1;
+}
+.userItemWarp .text-user-item {
+  flex: 1;
+  margin: 10px 0 0 15px;
+}
+.userItemWarp span {
+  display: block;
+  font-size: 12px;
+  color: #fff;
+}
+.userItemWarp img {
+  width: 60px;
+  height: 60px;
+}
+.menu-handle-item {
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background: #355f97;
+}
+.menu-handle-item .ivu-icon {
+  color: #fff;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.menu-handle-item .ivu-col {
+  height: 45px;
+}
+/*----顶部面包屑样式----*/
+.breadlink_wrap {
+  height: 40px;
+  width: 100%;
+  overflow-x: auto !important;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.breadlink_wrap .comlink {
+  display: inline-block;
+  margin-right: 5px;
+}
+.breadlink_wrap .comlink .ivu-icon-ios-close-circle-outline:before {
+  font-size: 16px;
+}
+.breadlink_wrap .comlink a {
+  display: inline-block;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.breadlink_wrap .isdefault a {
+  color: #666666 ;
+  background: white ;
+  border: 1px solid #dcdee2;
+}
+.breadlink_wrap .isdefault a .ivu-icon-ios-close-circle-outline:before {
+  color: #000;
+}
+.breadlink_wrap .isactive a {
+  background: #515a6e;
+  color: white;
+}
+.breadlink_wrap .isactive a .ivu-icon-ios-close-circle-outline:before {
+  color: white;
+}
+/* 文件上传类  */
+#uploadFile {
+  display: flex;
+  width: 100%;
+  min-width: 200px;
+}
+#uploadFile .demo-upload-list {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  margin-right: 4px;
+}
+#uploadFile .demo-upload-list img {
+  width: 100%;
+  height: 100%;
+}
+#uploadFile .demo-upload-list-cover {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+#uploadFile .demo-upload-list:hover .demo-upload-list-cover {
+  display: block;
+}
+#uploadFile .demo-upload-list-cover i {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 2px;
+}
+#uploadFile input.file {
+  display: none;
+}
+#uploadFile .upload-drag {
+  display: flex;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border: 1px dashed #dcdee2;
+  justify-content: center;
+  align-items: center;
+}
+#uploadFile .upload-drag:hover {
+  border: 1px dashed #2d8cf0;
+}
+#uploadFile .upload-drag:hover .ivu-icon {
+  color: #2d8cf0;
+}
+.ivu-modal-mask {
+  z-index: 900!important;
+}
+.ivu-spin-fix {
+  z-index: 3000!important;
+}
+.vl-notify {
+  z-index: 2000!important;
+}
+.ivu-modal-wrap {
+  z-index: 1000!important;
+}
